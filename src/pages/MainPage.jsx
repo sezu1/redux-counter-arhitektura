@@ -11,11 +11,11 @@ function MainPage() {
 
 
     function doIncr() {
-        dispatch(incrementActionCreator(count));
+        dispatch(incrementActionCreator());
     }
 
     function doDecr() {
-        dispatch(decrementActionCreator(count));
+        dispatch(decrementActionCreator());
     }
 
 

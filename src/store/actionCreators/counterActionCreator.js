@@ -1,18 +1,16 @@
 import {types} from "../types";
 
 
-function incrementActionCreator(count){
+function incrementActionCreator(){
     return{
-        type: types.INCREMENT,
-        payload: count + 1
+        type: types.INCREMENT
     }
 }
 
 
-function decrementActionCreator(count){
+function decrementActionCreator(){
     return{
-        type: types.DECREMENT,
-        payload: count - 1
+        type: types.DECREMENT
     }
 }
 
